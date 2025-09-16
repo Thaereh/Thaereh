@@ -1,0 +1,81 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: #f8f9fb;
+  color: #222;
+}
+
+.hero {
+  background: linear-gradient(90deg, #dbeafe 0%, #f8fafc 100%);
+  text-align: center;
+  padding: 4rem 1rem 3rem 1rem;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  background: #2563eb;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 1.2rem;
+  transition: background 0.2s;
+}
+.cta-btn:hover {
+  background: #1e40af;
+}
+
+.about, .projects, .contact {
+  max-width: 700px;
+  margin: 3rem auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 1rem 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills-list li {
+  background: #dbeafe;
+  color: #1e40af;
+  border-radius: 5px;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.97rem;
+}
+
+.case-studies {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.case-study-card {
+  background: #eff6ff;
+  border-radius: 8px;
+  padding: 1.2rem;
+  box-shadow: 0 1px 4px rgba(30,64,175,0.05);
+}
+.cs-link {
+  color: #2563eb;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .about, .projects, .contact {
+    padding: 1rem 0.5rem;
+  }
+}
