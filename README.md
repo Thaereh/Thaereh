@@ -45,6 +45,7 @@ Showcasing my expertise in manual testing and bug reporting:
 
 ### 🤝 **Let’s Connect**
 - [LinkedIn](https://www.linkedin.com/in/thae-reh-751631365)
+- 📧 Aungclayton@gmail.com
 
 ---
 
