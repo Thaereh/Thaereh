@@ -16,7 +16,15 @@ Welcome to my profile! I’m a passionate QA Engineer skilled in both manual and
 
 ### 🚀 **Portfolio Highlight**
 #### [QA-USA-Python_Automation](https://github.com/Thaereh/QA-USA-Python_Automation)
-A showcase of my end-to-end test automation skills using Python. This project demonstrates my ability to design, develop, and execute robust automation test cases, focusing on learning advanced coding and comprehensive testing strategies.
+A comprehensive automation testing project focusing on end-to-end test case development using Python and industry-standard tools.  
+**Key Features:**
+- 📝 Automated test cases for functional and non-functional requirements
+- 🧪 Covers front-end and back-end testing
+- ⚡ Utilizes Python, Postman, and browser DevTools
+- 📊 Includes black box, white box, and gray box testing approaches
+- 🪲 Demonstrates bug reporting and requirement analysis workflows
+
+> _Explore the repository for example test cases and detailed documentation on automation strategies!_
 
 ---
 
