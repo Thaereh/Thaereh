@@ -1,4 +1,4 @@
-## 👋 Hi, I’m Thae Reh!
+# 👋 Hi, I’m Thae Reh!
 
 ## 🧪 QA Engineer | Manual & Automation Testing Enthusiast
 
@@ -44,4 +44,4 @@ A comprehensive automation testing project focusing on end-to-end test case deve
 
 <!--
 **Thaereh/Thaereh** is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
---> Thaereh.github.io
+-->
