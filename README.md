@@ -28,6 +28,14 @@ A comprehensive automation testing project focusing on end-to-end test case deve
 
 ---
 
+### 📄 **Manual Test Cases**
+
+Showcasing my expertise in manual testing and bug reporting:
+
+- [Manual Test Case Example](https://docs.google.com/spreadsheets/d/1_iZuJxqkOiHxxUnTSlFaSo-74ncUyI_9/edit?usp=sharing&ouid=111374672552922847387&rtpof=true&sd=true)
+
+---
+
 ### 🌱 **Currently Learning**
 - Advanced coding for automation
 - End-to-end testing skills
