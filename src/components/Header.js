@@ -1,13 +1,14 @@
-import React from 'react';
+import React from "react";
+import "./Header.css";
 
 function Header() {
   return (
-    <header style={{ background: '#282c34', color: '#fff', padding: '1rem 0', textAlign: 'center' }}>
-      <h1>Thaereh Portfolio</h1>
+    <header className="header">
       <nav>
-        <a href="#about" style={{ color: '#61dafb', margin: '0 1rem' }}>About</a>
-        <a href="#projects" style={{ color: '#61dafb', margin: '0 1rem' }}>Projects</a>
-        <a href="#contact" style={{ color: '#61dafb', margin: '0 1rem' }}>Contact</a>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
   );
