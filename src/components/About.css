@@ -1,0 +1,10 @@
+.about {
+  background: #fff;
+  color: #222;
+  max-width: 700px;
+  margin: 3rem auto 0 auto;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(40,44,52,0.05);
+  text-align: center;
+}
