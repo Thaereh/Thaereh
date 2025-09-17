@@ -1,12 +1,18 @@
 import React from "react";
 import Hero from "./components/Hero";
-// If you have other components (About, Projects, Contact, Footer), import them here as well
+// import About from "./components/About";
+// import Projects from "./components/Projects";
+// import Contact from "./components/Contact";
+// import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
       <Hero />
-      {/* Add other components here, e.g. <About />, <Projects />, etc. */}
+      {/* <About /> */}
+      {/* <Projects /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
