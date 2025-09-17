@@ -1,24 +1,13 @@
 import React from "react";
-import Header from './components/Header';
-import Footer from './components/Footer';
 import Hero from "./components/Hero";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import "./App.css";
+// If you have other components (About, Projects, Contact, Footer), import them here as well
 
 function App() {
   return (
-    <>
-      <Header />
-      <div>
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
-      </div>
-      <Footer />
-    </>
+    <div>
+      <Hero />
+      {/* Add other components here, e.g. <About />, <Projects />, etc. */}
+    </div>
   );
 }
 
