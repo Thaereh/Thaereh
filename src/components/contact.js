@@ -1,8 +1,9 @@
 import React from "react";
+import "./Contact.css";
 
 function Contact() {
   return (
-    <section id="contact" style={{ padding: "2rem 1rem", textAlign: "center" }}>
+    <section className="contact" id="contact">
       <h2>Contact</h2>
       <p>
         Email: <a href="mailto:Aungclayton@gmail.com">Aungclayton@gmail.com</a>
