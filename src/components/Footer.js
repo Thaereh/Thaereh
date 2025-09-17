@@ -1,8 +1,9 @@
-import React from 'react';
+import React from "react";
+import "./Footer.css";
 
 function Footer() {
   return (
-    <footer style={{ background: '#282c34', color: '#fff', textAlign: 'center', padding: '1rem 0', marginTop: '2rem' }}>
+    <footer className="footer">
       <small>&copy; {new Date().getFullYear()} Thaereh. All rights reserved.</small>
     </footer>
   );
