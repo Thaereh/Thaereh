@@ -1,19 +1,15 @@
 import React from "react";
 
-export default function About() {
+function About() {
   return (
-    <section className="about" id="about">
+    <section id="about" style={{ padding: "2rem 1rem", textAlign: "center" }}>
       <h2>About Me</h2>
       <p>
-        I’m Tha Reh Aung, a passionate QA Engineer skilled in Python automation, web testing, and building robust solutions that make a difference. I enjoy tackling complex problems and delivering high-quality results.
+        Hi, I'm Thae Reh, an experienced QA Engineer specializing in manual and automation testing.
+        I am passionate about delivering high-quality software by ensuring robust and reliable test coverage.
       </p>
-      <ul className="skills-list">
-        <li>Python</li>
-        <li>Selenium</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Automation</li>
-      </ul>
     </section>
   );
 }
+
+export default About;
