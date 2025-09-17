@@ -1,28 +1,28 @@
 import React from "react";
-import CaseStudyCard from "./CaseStudyCard";
 
-const caseStudies = [
-  {
-    title: "E-commerce Automation Suite",
-    summary: "Developed a robust Python-Selenium test suite for a major online retailer, covering end-to-end workflows and CI integration.",
-    link: "#case-study-1"
-  },
-  {
-    title: "API Testing Framework",
-    summary: "Designed and implemented a scalable API automation framework using Python and Pytest, improving test coverage and reliability.",
-    link: "#case-study-2"
-  }
-];
-
-export default function Projects() {
+function Projects() {
   return (
-    <section className="projects" id="projects">
-      <h2>Projects & Case Studies</h2>
-      <div className="case-studies">
-        {caseStudies.map((cs, idx) => (
-          <CaseStudyCard key={idx} {...cs} />
-        ))}
+    <section id="projects" style={{ padding: "2rem 1rem", textAlign: "center" }}>
+      <h2>Featured Projects</h2>
+      <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "2rem" }}>
+        {/* Example Project Card */}
+        <div style={{
+          background: "#f9f9f9",
+          padding: "1rem",
+          borderRadius: "10px",
+          minWidth: "240px",
+          maxWidth: "300px"
+        }}>
+          <h3>Automation Framework</h3>
+          <p>Custom Python automation framework for UI and API testing with reporting.</p>
+          <a href="https://github.com/Thaereh/QA-USA-Python_Automation" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
+        </div>
+        {/* Add more project cards as needed */}
       </div>
     </section>
   );
 }
+
+export default Projects;
