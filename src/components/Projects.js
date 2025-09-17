@@ -1,20 +1,16 @@
 import React from "react";
+import "./Projects.css";
 
 function Projects() {
   return (
-    <section id="projects" style={{ padding: "2rem 1rem", textAlign: "center" }}>
+    <section className="projects" id="projects">
       <h2>Featured Projects</h2>
-      <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "2rem" }}>
-        {/* Example Project Card */}
-        <div style={{
-          background: "#f9f9f9",
-          padding: "1rem",
-          borderRadius: "10px",
-          minWidth: "240px",
-          maxWidth: "300px"
-        }}>
-          <h3>Automation Framework</h3>
-          <p>Custom Python automation framework for UI and API testing with reporting.</p>
+      <div className="project-list">
+        <div className="project-card">
+          <h3>QA-USA-Python Automation</h3>
+          <p>
+            Custom Python automation framework for UI and API testing with detailed reporting.
+          </p>
           <a href="https://github.com/Thaereh/QA-USA-Python_Automation" target="_blank" rel="noopener noreferrer">
             View on GitHub
           </a>
